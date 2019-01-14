@@ -1,0 +1,217 @@
+/* FONTS */
+
+@font-face {
+    font-family: NexaSlab;
+    src: url(fonts/NexaSlab/NexaSlabXBold.ttf);
+}
+
+@font-face {
+    font-family: Alegreya-Regular;
+    src: url(fonts/Alegreya/Alegreya-Regular.ttf);
+}
+
+
+
+
+
+body{
+	padding: 1em 1em;
+}
+
+h1 {
+	font-family: NexaSlab;
+	font-size: 3.68em;
+	line-height: 1em;
+	text-transform: uppercase;
+
+}
+
+
+p {
+	font-family: Alegreya-Regular;
+	font-size: 1em;
+	/* font-weight: 500; */
+	line-height: 1em;
+	line-height: 1.29em;
+	text-transform: none;
+	opacity: 0.7;
+
+}
+
+.header{
+	margin-top: 0px;
+
+}
+
+
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+
+	.top-left img {
+		width: 131px;
+		height: 24px;
+	}
+
+	.top-right img {
+		width: 20px;
+		height: 19px;
+		/* margin-top: 0.6px; */
+	}
+
+	.bilingual{
+		margin: auto;
+		font-family: NexaSlab;
+		vertical-align: middle;
+		border: 2px solid black;
+		border-radius: 5px;
+	}
+		.bilingual div{
+			display: inline-block;
+		}
+		.language a{
+			padding: 0.35rem 0.5rem;
+		}
+			.is-active{
+				color: white;
+				cursor: default;
+				background-color: black;
+			}
+				.is-active:hover{
+					color: white;
+				}
+			
+
+
+.coming-soon{
+	margin-top: 2.5em;
+}
+
+.line-separator{
+	width: 120px;
+	height: 12px;
+	margin-top: 0.5em; 
+	margin-left: 3px;
+	background: url('../img/line-separator.svg');
+}
+
+.caption{
+	margin-top: 3.5em;
+}
+.link{
+	opacity: 1;
+	font-weight: 600;
+	border-bottom: 1px solid #000;
+}
+
+
+@media only screen and (min-width: 400px) {
+	
+	.top-left img {
+		width: 151px;
+		height: 34px;
+	}
+
+	.top-right img {
+		width: 30px;
+		height: 29px;
+	}
+
+	h1{
+		font-size: 5em;
+	}
+}
+@media only screen and (min-width: 450px) {
+	h1{
+		font-size: 6em;
+	}
+
+}
+
+@media only screen and (min-width: 550px) {
+	
+	h1{
+		font-size: 6.4em;
+	}
+
+	body{
+		padding: 1em 3.2em;
+	}
+
+	.bilingual{
+		margin-left: 1em;
+	}
+		.language a{
+			padding: 0.4rem 0.7rem;
+		}
+
+
+	.line-separator{
+		width: 150px;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.language a{
+			padding: 0.7rem 1rem;
+		}
+}
+
+@media only screen and (min-width: 810px) {
+	.header {
+		margin-top: 15px;
+	}
+	.top-left img {
+		width: 161px;
+		height: 44px;
+	}
+
+	.top-right img {
+		width: 40px;
+		height: 30px;
+	}
+	
+	.coming-soon{
+		margin-top: 3em;
+	}
+
+	.line-separator{
+		margin-left: 5px;
+	}
+
+	h1{
+		font-size: 7.1em;
+	}
+	p{
+		font-size: 1.2em;
+	}
+	body{
+		padding: 1em 6.2em;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.line-separator{
+		width: 220px;
+	}
+
+	h1 {
+		font-size: 9.8em;
+	}
+	p {
+		font-size: 1.32em;
+	}
+
+}
+
+@media only screen and (min-width: 1280px) {
+	
+	h1 {
+		font-size: 9.8em;
+	}
+
+	p {
+		font-size: 1.32em;
+	}
+
+}
